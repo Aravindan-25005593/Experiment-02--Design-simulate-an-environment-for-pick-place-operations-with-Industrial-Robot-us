@@ -54,6 +54,9 @@ Rename the first target as Home by pressing F2. Alternatively, select ToolsRenam
 ### PROGRAM 
 PICK AND PLACE()
 ```
+25005593
+ARAVINDAN SD
+
 # RoboDK Python Intermediate file to generate robot programs.
 # Program name: PICKANDPLACE
 # This file requires the post processor: 
@@ -92,7 +95,7 @@ r.MoveJ(p(3.71469,-430.862,500.489,-179.861,3.3803,-179.992),[25.7617,1.8996,-94
 r.MoveJ(p(30.2054,-430.862,51.997,-179.861,3.3803,-179.992),[27.0464,-17.1299,-126.619,2.4267,-39.2881,24.9885],[0,0,0])
 r.RunMessage(r"""Detach from Gripper RobotiQ 85 Opened""",True)
 r.ProgFinish(r"""PICKANDPLACE""")
-r.ProgSave(r"""C:/Users/VelasiriSreeja/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/VelasiriSreeja/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""") 
+r.ProgSave(r"""C:/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""") 
 ```
  ## Simulation :
 <img width="1011" height="535" alt="kdr 2 1" src="https://github.com/user-attachments/assets/63d8a8ee-62d9-4688-b7b4-394ca6fa4cca" />
